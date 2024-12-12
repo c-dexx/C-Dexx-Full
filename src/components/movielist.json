@@ -1,0 +1,454 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "year": "2010",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Christopher Nolan",
+      "poster": "/images/inception.jpg",
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+    },
+    {
+      "id": 2,
+      "title": "The Dark Knight",
+      "year": "2008",
+      "genre": "Action, Crime, Drama",
+      "director": "Christopher Nolan",
+      "poster": "/images/the_dark_knight.jpg",
+      "plot": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+    },
+    {
+      "id": 3,
+      "title": "Parasite",
+      "year": "2019",
+      "genre": "Comedy, Drama, Thriller",
+      "director": "Bong Joon Ho",
+      "poster": "/images/parasite.jpg",
+      "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+    },
+    {
+      "id": 4,
+      "title": "Whiplash",
+      "year": "2014",
+      "genre": "Drama, Music",
+      "director": "Damien Chazelle",
+      "poster": "/images/whiplash.jpg",
+      "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
+    },
+    {
+      "id": 5,
+      "title": "12 Years a Slave",
+      "year": "2013",
+      "genre": "Biography, Drama, History",
+      "director": "Steve McQueen",
+      "poster": "/images/12_years_a_slave.jpg",
+      "plot": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery."
+    },
+    {
+      "id": 6,
+      "title": "The Social Network",
+      "year": "2010",
+      "genre": "Biography, Drama",
+      "director": "David Fincher",
+      "poster": "/images/the_social_network.jpg",
+      "plot": "The story of the founding of Facebook and the legal battles that followed its success."
+    },
+    {
+      "id": 7,
+      "title": "Moonlight",
+      "year": "2016",
+      "genre": "Drama",
+      "director": "Barry Jenkins",
+      "poster": "/images/moonlight.jpg",
+      "plot": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and adulthood."
+    },
+    {
+      "id": 8,
+      "title": "Get Out",
+      "year": "2017",
+      "genre": "Horror, Mystery, Thriller",
+      "director": "Jordan Peele",
+      "poster": "/images/get_out.jpg",
+      "plot": "A young African-American man visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
+    },
+    {
+      "id": 9,
+      "title": "Her",
+      "year": "2013",
+      "genre": "Drama, Romance, Sci-Fi",
+      "director": "Spike Jonze",
+      "poster": "/images/her.jpg",
+      "plot": "In a future where technology has advanced far beyond what we know, a lonely writer develops an unusual relationship with an operating system designed to meet his every need."
+    },
+    {
+      "id": 10,
+      "title": "The Wolf of Wall Street",
+      "year": "2013",
+      "genre": "Biography, Comedy, Crime",
+      "director": "Martin Scorsese",
+      "poster": "/images/the_wolf_of_wall_street.jpg",
+      "plot": "The story of a stockbroker's rise and fall as he abuses his power and wealth while engaging in corruption, fraud, and excess."
+    },
+    {
+      "id": 11,
+      "title": "Inside Out",
+      "year": "2015",
+      "genre": "Animation, Adventure, Comedy",
+      "director": "Pete Docter, Ronnie del Carmen",
+      "poster": "/images/inside_out.jpg",
+      "plot": "After a young girl moves to a new city, her emotions\u2014Joy, Sadness, Anger, Fear, and Disgust\u2014struggle to adjust to the life-changing events."
+    },
+    {
+      "id": 12,
+      "title": "The Dark Knight Rises",
+      "year": "2012",
+      "genre": "Action, Drama",
+      "director": "Christopher Nolan",
+      "poster": "/images/the_dark_knight_rises.jpg",
+      "plot": "Eight years after the events of The Dark Knight, Batman comes out of retirement to face a new villain, Bane, who has a devastating plan for Gotham."
+    },
+    {
+      "id": 13,
+      "title": "Arrival",
+      "year": "2016",
+      "genre": "Drama, Mystery, Sci-Fi",
+      "director": "Denis Villeneuve",
+      "poster": "/images/arrival.jpg",
+      "plot": "A linguist is recruited by the military to help communicate with alien lifeforms after twelve mysterious spacecraft appear around the world."
+    },
+    {
+      "id": 14,
+      "title": "Ex Machina",
+      "year": "2015",
+      "genre": "Drama, Sci-Fi, Thriller",
+      "director": "Alex Garland",
+      "poster": "/images/ex_machina.jpg",
+      "plot": "A young programmer is selected to participate in a groundbreaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I."
+    },
+    {
+      "id": 15,
+      "title": "Logan",
+      "year": "2017",
+      "genre": "Action, Drama, Sci-Fi",
+      "director": "James Mangold",
+      "poster": "/images/logan.jpg",
+      "plot": "In a future where mutants are nearly extinct, Logan (Wolverine) cares for an ailing Professor X. However, his quiet life is disrupted when a young mutant named Laura comes into their lives."
+    },
+    {
+      "id": 16,
+      "title": "La La Land",
+      "year": "2016",
+      "genre": "Comedy, Drama, Music",
+      "director": "Damien Chazelle",
+      "poster": "/images/la_la_land.jpg",
+      "plot": "A jazz musician and an aspiring actress fall in love, but their ambitions and dreams push them apart."
+    },
+    {
+      "id": 17,
+      "title": "Toy Story 3",
+      "year": "2010",
+      "genre": "Animation, Adventure, Comedy",
+      "director": "Lee Unkrich",
+      "poster": "/images/toy_story_3.jpg",
+      "plot": "The toys are mistakenly delivered to a daycare center instead of the attic right before Andy leaves for college, and it is up to Woody to convince the other toys to escape and return home."
+    },
+    {
+      "id": 18,
+      "title": "Spider-Man: Into the Spider-Verse",
+      "year": "2018",
+      "genre": "Animation, Action, Adventure",
+      "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      "poster": "/images/spider_man_into_the_spider_verse.jpg",
+      "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with five spider-powered individuals from other dimensions to stop a threat for all realities."
+    },
+    {
+      "id": 19,
+      "title": "The Grand Budapest Hotel",
+      "year": "2014",
+      "genre": "Adventure, Comedy, Crime",
+      "director": "Wes Anderson",
+      "poster": "/images/the_grand_budapest_hotel.jpg",
+      "plot": "The adventures of Gustave H, the meticulous concierge of a famous European hotel, and Zero Moustafa, the lobby boy who becomes his most trusted friend."
+    },
+    {
+      "id": 20,
+      "title": "Black Panther",
+      "year": "2018",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Ryan Coogler",
+      "poster": "/images/black_panther.jpg",
+      "plot": "T'Challa, the new ruler of the advanced African nation of Wakanda, is challenged by a vengeful outsider who seeks to bring the nation to its knees."
+    },
+    {
+      "id": 21,
+      "title": "Dunkirk",
+      "year": "2017",
+      "genre": "Action, Drama, History",
+      "director": "Christopher Nolan",
+      "poster": "/images/dunkirk.jpg",
+      "plot": "Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II."
+    },
+    {
+      "id": 22,
+      "title": "The Revenant",
+      "year": "2015",
+      "genre": "Adventure, Drama, Thriller",
+      "director": "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
+      "poster": "/images/the_revenant.jpg",
+      "plot": "In the 1820s, frontiersman Hugh Glass sets out on a quest for survival after being mauled by a bear and left for dead by members of his own hunting team."
+    },
+    {
+      "id": 23,
+      "title": "The Godfather",
+      "year": "1972",
+      "genre": "Crime, Drama",
+      "director": "Francis Ford Coppola",
+      "poster": "/images/the_godfather.jpg",
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+    },
+    {
+      "id": 24,
+      "title": "Schindler's List",
+      "year": "1993",
+      "genre": "Biography, Drama, History",
+      "director": "Steven Spielberg",
+      "poster": "/images/schindler's_list.jpg",
+      "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+    },
+    {
+      "id": 25,
+      "title": "Forrest Gump",
+      "year": "1994",
+      "genre": "Drama, Romance",
+      "director": "Robert Zemeckis",
+      "poster": "/images/forrest_gump.jpg",
+      "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life."
+    },
+    {
+      "id": 26,
+      "title": "The Shawshank Redemption",
+      "year": "1994",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "poster": "/images/the_shawshank_redemption.jpg",
+      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+      "id": 27,
+      "title": "The Matrix",
+      "year": "1999",
+      "genre": "Action, Sci-Fi",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "poster": "/images/the_matrix.jpg",
+      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+    },
+    {
+      "id": 28,
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": "2001",
+      "genre": "Action, Adventure, Drama",
+      "director": "Peter Jackson",
+      "poster": "/images/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg",
+      "plot": "A young hobbit named Frodo Baggins is tasked with carrying the one ring to Mount Doom in order to destroy it and end the power of the Dark Lord Sauron."
+    },
+    {
+      "id": 29,
+      "title": "Avengers: Endgame",
+      "year": "2019",
+      "genre": "Action, Adventure, Drama",
+      "director": "Anthony Russo, Joe Russo",
+      "poster": "/images/avengers_endgame.jpg",
+      "plot": "After the devastating events of Avengers: Infinity War (2018), the Avengers assemble once again in order to reverse Thanos' actions and restore balance to the universe."
+    },
+    {
+      "id": 30,
+      "title": "Star Wars: Episode V - The Empire Strikes Back",
+      "year": "1980",
+      "genre": "Action, Adventure, Fantasy",
+      "director": "Irvin Kershner",
+      "poster": "/images/star_wars_episode_v___the_empire_strikes_back.jpg",
+      "plot": "After the rebels are overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins his training as a Jedi while his friends are pursued across the galaxy by Darth Vader."
+    },
+    {
+      "id": 31,
+      "title": "The Lion King",
+      "year": "1994",
+      "genre": "Animation, Adventure, Drama",
+      "director": "Roger Allers, Rob Minkoff",
+      "poster": "/images/the_lion_king.jpg",
+      "plot": "A lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules the kingdom, the prince makes allies and learns valuable life lessons."
+    },
+    {
+      "id": 32,
+      "title": "The Pursuit of Happyness",
+      "year": "2006",
+      "genre": "Biography, Drama",
+      "director": "Gabriele Muccino",
+      "poster": "/images/the_pursuit_of_happyness.jpg",
+      "plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career."
+    },
+    {
+      "id": 33,
+      "title": "Interstellar",
+      "year": "2014",
+      "genre": "Adventure, Drama, Sci-Fi",
+      "director": "Christopher Nolan",
+      "poster": "/images/interstellar.jpg",
+      "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+    },
+    {
+      "id": 34,
+      "title": "Coco",
+      "year": "2017",
+      "genre": "Animation, Adventure, Comedy",
+      "director": "Lee Unkrich, Adrian Molina",
+      "poster": "/images/coco.jpg",
+      "plot": "Aspiring musician Miguel teams up with charming trickster Hector on an extraordinary journey through the Land of the Dead to unlock the real story behind his family's history."
+    },
+    {
+      "id": 35,
+      "title": "The Godfather Part II",
+      "year": "1974",
+      "genre": "Crime, Drama",
+      "director": "Francis Ford Coppola",
+      "poster": "/images/the_godfather_part_ii.jpg",
+      "plot": "The early life and career of Vito Corleone (as portrayed by Marlon Brando) are portrayed, while his son Michael Corleone (Al Pacino) expands and tightens his grip on the family crime syndicate."
+    },
+    {
+      "id": 36,
+      "title": "The Silence of the Lambs",
+      "year": "1991",
+      "genre": "Crime, Drama, Thriller",
+      "director": "Jonathan Demme",
+      "poster": "/images/the_silence_of_the_lambs.jpg",
+      "plot": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer, while bargaining with her own psychological stability."
+    },
+    {
+      "id": 37,
+      "title": "Back to the Future",
+      "year": "1985",
+      "genre": "Adventure, Comedy, Sci-Fi",
+      "director": "Robert Zemeckis",
+      "poster": "/images/back_to_the_future.jpg",
+      "plot": "Marty McFly, a teenager, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown."
+    },
+    {
+      "id": 38,
+      "title": "The Princess Bride",
+      "year": "1987",
+      "genre": "Adventure, Family, Fantasy",
+      "director": "Rob Reiner",
+      "poster": "/images/the_princess_bride.jpg",
+      "plot": "A farm boy turned pirate joins a princess in a quest to rescue her father and save her kingdom."
+    },
+    {
+      "id": 39,
+      "title": "The Departed",
+      "year": "2006",
+      "genre": "Crime, Drama, Thriller",
+      "director": "Martin Scorsese",
+      "poster": "/images/the_departed.jpg",
+      "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+    },
+    {
+      "id": 40,
+      "title": "The Avengers",
+      "year": "2012",
+      "genre": "Action, Adventure, Sci-Fi",
+      "director": "Joss Whedon",
+      "poster": "/images/the_avengers.jpg",
+      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+    },
+    {
+      "id": 41,
+      "title": "The Matrix Reloaded",
+      "year": "2003",
+      "genre": "Action, Sci-Fi",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "poster": "/images/the_matrix_reloaded.jpg",
+      "plot": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it, along with the entire human race."
+    },
+    {
+      "id": 42,
+      "title": "Indiana Jones: Raiders of the Lost Ark",
+      "year": "1981",
+      "genre": "Action, Adventure",
+      "director": "Steven Spielberg",
+      "poster": "/images/indiana_jones_raiders_of_the_lost_ark.jpg",
+      "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Nazi submarine that carries a deadly weapon known as the Ark of the Covenant."
+    },
+    {
+      "id": 43,
+      "title": "The Dark Knight Rises",
+      "year": "2012",
+      "genre": "Action, Drama, Thriller",
+      "director": "Christopher Nolan",
+      "poster": "/images/the_dark_knight_rises.jpg",
+      "plot": "Eight years after the events of The Dark Knight (2008), Batman comes out of retirement to stop the masked terrorist Bane, who is bent on destroying Gotham City."
+    },
+    {
+      "id": 44,
+      "title": "The Green Mile",
+      "year": "1999",
+      "genre": "Crime, Drama, Fantasy",
+      "director": "Frank Darabont",
+      "poster": "/images/the_green_mile.jpg",
+      "plot": "A prison guard learns that one of his prisoners, who is on death row for murder, has the miraculous ability to heal people."
+    },
+    {
+      "id": 45,
+      "title": "Goodfellas",
+      "year": "1990",
+      "genre": "Crime, Drama",
+      "director": "Martin Scorsese",
+      "poster": "/images/goodfellas.jpg",
+      "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his mobster associates over the years."
+    },
+    {
+      "id": 46,
+      "title": "Fight Club",
+      "year": "1999",
+      "genre": "Drama",
+      "director": "David Fincher",
+      "poster": "/images/fight_club.jpg",
+      "plot": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much more."
+    },
+    {
+      "id": 47,
+      "title": "Jaws",
+      "year": "1975",
+      "genre": "Adventure, Thriller",
+      "director": "Steven Spielberg",
+      "poster": "/images/jaws.jpg",
+      "plot": "A great white shark hunts the small resort town of Amity Island, terrorizing its residents and tourists, leading a small group of men to hunt it down."
+    },
+    {
+      "id": 48,
+      "title": "Pulp Fiction",
+      "year": "1994",
+      "genre": "Crime, Drama",
+      "director": "Quentin Tarantino",
+      "poster": "/images/pulp_fiction.jpg",
+      "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+    },
+    {
+      "id": 49,
+      "title": "The Prestige",
+      "year": "2006",
+      "genre": "Drama, Mystery, Sci-Fi",
+      "director": "Christopher Nolan",
+      "poster": "/images/the_prestige.jpg",
+      "plot": "Two magicians engage in a bitter rivalry, each trying to outdo the other with increasingly spectacular illusions, while hiding dark secrets."
+    },
+    {
+      "id": 50,
+      "title": "Gladiator",
+      "year": "2000",
+      "genre": "Action, Adventure, Drama",
+      "director": "Ridley Scott",
+      "poster": "/images/gladiator.jpg",
+      "plot": "A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family and sent him into slavery."
+    }
+  ]
+}

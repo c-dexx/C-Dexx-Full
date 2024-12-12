@@ -1,1 +1,2 @@
-# C-Dexx-Full
+# C-Dex API Testing
+## npm install
