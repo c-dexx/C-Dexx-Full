@@ -23,7 +23,12 @@ route.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
 });
 
-route.post('/users', (req, res) => {
+// Prefix all routes with /api to avoid conflicts
+route.get('/api/', (req, res) => {
+  res.send('Backend API is working!');
+});
+
+route.post('/api/users', (req, res) => {
   console.log('Request body:', req.body);
   User.create(req.body)
     .then((user) => {
@@ -35,7 +40,7 @@ route.post('/users', (req, res) => {
     });
 });
 
-route.get('/users', (req, res) => {
+route.get('/api/users', (req, res) => {
   User.find().then(users => {
     res.send(users);
   }).catch(err => {
@@ -43,7 +48,7 @@ route.get('/users', (req, res) => {
   });
 });
 
-route.get('/users/:id', (req, res) => {
+route.get('/api/users/:id', (req, res) => {
   User.findById(req.params.id).then(user => {
     res.send(user);
   }).catch(err => {
@@ -51,21 +56,23 @@ route.get('/users/:id', (req, res) => {
   });
 });
 
-route.put('/users/:id', (req, res) => {
+route.put('/api/users/:id', (req, res) => {
   User.findByIdAndUpdate(req.params.id, req.body, { new: true }).then(user => {
     res.send(user);
   }).catch(err => {
     res.status(500).send(err);
   });
 });
-route.delete('/users/:id', (req, res) => {
+
+route.delete('/api/users/:id', (req, res) => {
   User.findByIdAndRemove(req.params.id).then(() => {
     res.send({ message: 'User deleted successfully' });
   }).catch(err => {
     res.status(500).send(err);
   });
 });
-route.post('/review', (req, res) => {
+
+route.post('/api/review', (req, res) => {
   console.log(req.body);
   Review.create(req.body)
     .then((review) => {
@@ -75,30 +82,29 @@ route.post('/review', (req, res) => {
       res.status(500).send(err);
     });
 });
-route.get('/review', (req, res) => {
+
+route.get('/api/review', (req, res) => {
   Review.find().then(reviews => {
     res.send(reviews);
   }).catch(err => {
     res.status(500).send(err);
   });
 });
-route.get('/review/:id', (req, res) => {
+
+route.get('/api/review/:id', (req, res) => {
   Review.findByIdAndRemove(req.params.id).then(() => {
     res.send({ message: 'Review deleted successfully' });
   }).catch(err => {
     res.status(500).send(err);
   });
 });
-route.post('/users/login', async (req, res) => {
+
+route.post('/api/users/login', async (req, res) => {
   const { email, password } = req.body;
 
   try {
-    // Find the user by email
     const user = await User.findOne({ email });
-    console.log(req.body);
-    
-    // If user exists and password matches, return user data
-    if (user && user.password === password) { // Ideally, hash passwords in production
+    if (user && user.password === password) {
       res.status(200).send({
         message: 'Login successful',
         user: { _id: user._id, email: user.email, nama: user.nama },
@@ -107,10 +113,10 @@ route.post('/users/login', async (req, res) => {
       res.status(401).send({ error: 'Invalid email or password' });
     }
   } catch (err) {
-    console.error('Error during login:', err);
     res.status(500).send({ error: 'Internal server error' });
   }
 });
+
 
 const port = 3000;
 route.listen(port, () => {
