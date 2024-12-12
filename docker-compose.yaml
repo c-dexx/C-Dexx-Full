@@ -1,6 +1,17 @@
 version: '3.8'
 
 services:
+  frontend:
+    build:
+      context: ./reactfrontend
+      dockerfile: dockerfile.frontend
+    container_name: frontend
+    ports:
+      - "3001:3001"
+    depends_on:
+      - backend
+    networks:
+      - my-network
   mongodb:
     image: mongo:latest
     container_name: mongodb
@@ -11,7 +22,9 @@ services:
     volumes:
       - mongodb-data:/data/db
   backend:
-    build: .
+    build: 
+      context: ./backend
+      dockerfile: dockerfile.backend
     container_name: backend
     ports:
       - "3000:3000"
