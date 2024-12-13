@@ -12,7 +12,7 @@ const route = express();
 
 
 route.use(cors({
-  origin: 'http://localhost:3001',
+  origin: 'http://localhost:3000',
   methods: ['GET', 'POST', 'OPTIONS'],
   allowedHeaders: ['Content-Type']
 }));
@@ -118,7 +118,7 @@ route.post('/api/users/login', async (req, res) => {
 });
 
 
-const port = 3000;
+const port = 4000;
 route.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
