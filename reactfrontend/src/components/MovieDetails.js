@@ -1,4 +1,4 @@
-import { Box, Image, Text, VStack, HStack, Button, Textarea, Input, Flex ,Badge} from '@chakra-ui/react';
+import { Box, Image, Text, VStack, HStack, Button, Textarea, Input, Flex, Badge } from '@chakra-ui/react';
 import { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import moviesData from './movielist.json';
@@ -56,7 +56,7 @@ const MovieDetails = () => {
     bgColor="#170B2E"
     minH="100vh"
     overflow="hidden"
-    px="283px"
+    px={{ base: "20px", md: "50px", lg: "100px" }}
     >
       <Flex 
         justify="center" 
@@ -75,12 +75,12 @@ const MovieDetails = () => {
     bgColor="#170B2E"
     minH="100vh"
     overflow={'hidden'}
-    px="283px">
-      <Flex mt="36">
-        <Image src={movie.Poster} alt={movie.Title} rounded="md" mb="6"/>
-        <VStack align={"start"} ml={"110px"}>
+    px={{ base: "20px", md: "50px", lg: "100px" }}>
+      <Flex mt="36" flexDirection={{ base: "column", md: "row" }}>
+        <Image src={movie.poster} alt={movie.title} rounded="md" mb="6" maxW={{ base: "100%", md: "300px" }} />
+        <VStack align={"start"} ml={{ base: "0", md: "110px" }} mt={{ base: "6", md: "0" }}>
           <Box display="flex" gap="2" flexWrap="wrap" mb="6">
-            {movie.Genre?.split(",").map((genre) => (
+            {movie.genre?.split(",").map((genre) => (
               <Badge
                 key={genre.trim()}
                 rounded="full"
@@ -93,18 +93,18 @@ const MovieDetails = () => {
               </Badge>
             ))}
           </Box>
-          <Text fontSize="48px" fontWeight="800" textColor="white" mb={"6"}>{movie.Title} <span style={{opacity: 0.5, marginLeft:"16px"}}>{movie.Year}</span></Text>
+          <Text fontSize="48px" fontWeight="800" textColor="white" mb={"6"}>{movie.title} <span style={{opacity: 0.5, marginLeft:"16px"}}>{movie.year}</span></Text>
           <Box display="flex" alignItems="center" mb="6">
               <Text fontWeight="800" fontSize="32px" textColor={"white"}>
                 {movie.rating || "N/A"} / 10
               </Text>
             </Box>
           <Text mb="1" textColor={"white"} fontSize={"24px"} fontWeight={"500"}><strong>Overview :</strong></Text>
-          <Text mb="4" textColor={"white"} fontSize={"18px"} fontWeight={"500"} w={"627px"} textAlign={"justify"}>{movie.Plot}</Text>
+          <Text mb="4" textColor={"white"} fontSize={"18px"} fontWeight={"500"} maxW={{ base: "100%", md: "627px" }} textAlign={"justify"}>{movie.plot}</Text>
         </VStack>
       </Flex>
 
-      <VStack spacing="4" align="flex-start">
+      <VStack spacing="4" align="flex-start" maxW={{ base: "100%", md: "627px" }}>
         <Text fontSize="lg" fontWeight="bold" textColor={"white"}>Leave a Review</Text>
         <Input
           placeholder="Rating (out of 5)"
@@ -125,15 +125,12 @@ const MovieDetails = () => {
         }}>Submit Review</Button>
       </VStack>
 
-      <VStack mt="8" spacing="6">
+      <VStack mt="8" spacing="6" maxW={{ base: "100%", md: "627px" }}>
         {reviews.map((review, index) => (
-          <Box key={index} shadow="md" rounded="md">
+          <Box key={index} p="4" shadow="md" rounded="md" bg="gray.100" w="100%">
             <HStack>
-              <VStack>
-                <Text ml="auto">{review.author}</Text>
-                <Text>{review.rating}</Text>
-              </VStack>
               <Text><strong>Rating:</strong> {review.rating}/5</Text>
+              <Text ml="auto"><strong>Author:</strong> {review.author}</Text>
             </HStack>
             <Text mt="2">{review.text}</Text>
           </Box>

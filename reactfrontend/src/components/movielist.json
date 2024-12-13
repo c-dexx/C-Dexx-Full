@@ -7,7 +7,8 @@
       "genre": "Action, Adventure, Sci-Fi",
       "director": "Christopher Nolan",
       "poster": "/images/inception.jpg",
-      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO."
+      "plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "rating": 7.1
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "genre": "Action, Crime, Drama",
       "director": "Christopher Nolan",
       "poster": "/images/the_dark_knight.jpg",
-      "plot": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice."
+      "plot": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "rating": 8.3
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "genre": "Comedy, Drama, Thriller",
       "director": "Bong Joon Ho",
       "poster": "/images/parasite.jpg",
-      "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan."
+      "plot": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "rating": 7.5
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "genre": "Drama, Music",
       "director": "Damien Chazelle",
       "poster": "/images/whiplash.jpg",
-      "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential."
+      "plot": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "rating": 6.5
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "genre": "Biography, Drama, History",
       "director": "Steve McQueen",
       "poster": "/images/12_years_a_slave.jpg",
-      "plot": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery."
+      "plot": "In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.",
+      "rating": 9.3
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "genre": "Biography, Drama",
       "director": "David Fincher",
       "poster": "/images/the_social_network.jpg",
-      "plot": "The story of the founding of Facebook and the legal battles that followed its success."
+      "plot": "The story of the founding of Facebook and the legal battles that followed its success.",
+      "rating": 6.1
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "genre": "Drama",
       "director": "Barry Jenkins",
       "poster": "/images/moonlight.jpg",
-      "plot": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and adulthood."
+      "plot": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and adulthood.",
+      "rating": 8.7
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "genre": "Horror, Mystery, Thriller",
       "director": "Jordan Peele",
       "poster": "/images/get_out.jpg",
-      "plot": "A young African-American man visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
+      "plot": "A young African-American man visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
+      "rating": 8.7
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "genre": "Drama, Romance, Sci-Fi",
       "director": "Spike Jonze",
       "poster": "/images/her.jpg",
-      "plot": "In a future where technology has advanced far beyond what we know, a lonely writer develops an unusual relationship with an operating system designed to meet his every need."
+      "plot": "In a future where technology has advanced far beyond what we know, a lonely writer develops an unusual relationship with an operating system designed to meet his every need.",
+      "rating": 9.3
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "genre": "Biography, Comedy, Crime",
       "director": "Martin Scorsese",
       "poster": "/images/the_wolf_of_wall_street.jpg",
-      "plot": "The story of a stockbroker's rise and fall as he abuses his power and wealth while engaging in corruption, fraud, and excess."
+      "plot": "The story of a stockbroker's rise and fall as he abuses his power and wealth while engaging in corruption, fraud, and excess.",
+      "rating": 9.2
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "genre": "Animation, Adventure, Comedy",
       "director": "Pete Docter, Ronnie del Carmen",
       "poster": "/images/inside_out.jpg",
-      "plot": "After a young girl moves to a new city, her emotions\u2014Joy, Sadness, Anger, Fear, and Disgust\u2014struggle to adjust to the life-changing events."
+      "plot": "After a young girl moves to a new city, her emotions\u2014Joy, Sadness, Anger, Fear, and Disgust\u2014struggle to adjust to the life-changing events.",
+      "rating": 9.0
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "genre": "Action, Drama",
       "director": "Christopher Nolan",
       "poster": "/images/the_dark_knight_rises.jpg",
-      "plot": "Eight years after the events of The Dark Knight, Batman comes out of retirement to face a new villain, Bane, who has a devastating plan for Gotham."
+      "plot": "Eight years after the events of The Dark Knight, Batman comes out of retirement to face a new villain, Bane, who has a devastating plan for Gotham.",
+      "rating": 6.2
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "genre": "Drama, Mystery, Sci-Fi",
       "director": "Denis Villeneuve",
       "poster": "/images/arrival.jpg",
-      "plot": "A linguist is recruited by the military to help communicate with alien lifeforms after twelve mysterious spacecraft appear around the world."
+      "plot": "A linguist is recruited by the military to help communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+      "rating": 7.1
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "genre": "Drama, Sci-Fi, Thriller",
       "director": "Alex Garland",
       "poster": "/images/ex_machina.jpg",
-      "plot": "A young programmer is selected to participate in a groundbreaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I."
+      "plot": "A young programmer is selected to participate in a groundbreaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
+      "rating": 7.2
     },
     {
       "id": 15,
@@ -133,7 +147,8 @@
       "genre": "Action, Drama, Sci-Fi",
       "director": "James Mangold",
       "poster": "/images/logan.jpg",
-      "plot": "In a future where mutants are nearly extinct, Logan (Wolverine) cares for an ailing Professor X. However, his quiet life is disrupted when a young mutant named Laura comes into their lives."
+      "plot": "In a future where mutants are nearly extinct, Logan (Wolverine) cares for an ailing Professor X. However, his quiet life is disrupted when a young mutant named Laura comes into their lives.",
+      "rating": 6.5
     },
     {
       "id": 16,
@@ -142,7 +157,8 @@
       "genre": "Comedy, Drama, Music",
       "director": "Damien Chazelle",
       "poster": "/images/la_la_land.jpg",
-      "plot": "A jazz musician and an aspiring actress fall in love, but their ambitions and dreams push them apart."
+      "plot": "A jazz musician and an aspiring actress fall in love, but their ambitions and dreams push them apart.",
+      "rating": 6.4
     },
     {
       "id": 17,
@@ -151,7 +167,8 @@
       "genre": "Animation, Adventure, Comedy",
       "director": "Lee Unkrich",
       "poster": "/images/toy_story_3.jpg",
-      "plot": "The toys are mistakenly delivered to a daycare center instead of the attic right before Andy leaves for college, and it is up to Woody to convince the other toys to escape and return home."
+      "plot": "The toys are mistakenly delivered to a daycare center instead of the attic right before Andy leaves for college, and it is up to Woody to convince the other toys to escape and return home.",
+      "rating": 6.5
     },
     {
       "id": 18,
@@ -160,7 +177,8 @@
       "genre": "Animation, Action, Adventure",
       "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
       "poster": "/images/spider_man_into_the_spider_verse.jpg",
-      "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with five spider-powered individuals from other dimensions to stop a threat for all realities."
+      "plot": "Teen Miles Morales becomes Spider-Man of his reality, crossing paths with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "rating": 9.1
     },
     {
       "id": 19,
@@ -169,7 +187,8 @@
       "genre": "Adventure, Comedy, Crime",
       "director": "Wes Anderson",
       "poster": "/images/the_grand_budapest_hotel.jpg",
-      "plot": "The adventures of Gustave H, the meticulous concierge of a famous European hotel, and Zero Moustafa, the lobby boy who becomes his most trusted friend."
+      "plot": "The adventures of Gustave H, the meticulous concierge of a famous European hotel, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+      "rating": 7.4
     },
     {
       "id": 20,
@@ -178,7 +197,8 @@
       "genre": "Action, Adventure, Sci-Fi",
       "director": "Ryan Coogler",
       "poster": "/images/black_panther.jpg",
-      "plot": "T'Challa, the new ruler of the advanced African nation of Wakanda, is challenged by a vengeful outsider who seeks to bring the nation to its knees."
+      "plot": "T'Challa, the new ruler of the advanced African nation of Wakanda, is challenged by a vengeful outsider who seeks to bring the nation to its knees.",
+      "rating": 9.1
     },
     {
       "id": 21,
@@ -187,7 +207,8 @@
       "genre": "Action, Drama, History",
       "director": "Christopher Nolan",
       "poster": "/images/dunkirk.jpg",
-      "plot": "Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II."
+      "plot": "Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II.",
+      "rating": 7.3
     },
     {
       "id": 22,
@@ -196,7 +217,8 @@
       "genre": "Adventure, Drama, Thriller",
       "director": "Alejandro Gonz\u00e1lez I\u00f1\u00e1rritu",
       "poster": "/images/the_revenant.jpg",
-      "plot": "In the 1820s, frontiersman Hugh Glass sets out on a quest for survival after being mauled by a bear and left for dead by members of his own hunting team."
+      "plot": "In the 1820s, frontiersman Hugh Glass sets out on a quest for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+      "rating": 9.0
     },
     {
       "id": 23,
@@ -205,7 +227,8 @@
       "genre": "Crime, Drama",
       "director": "Francis Ford Coppola",
       "poster": "/images/the_godfather.jpg",
-      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "rating": 7.5
     },
     {
       "id": 24,
@@ -214,7 +237,8 @@
       "genre": "Biography, Drama, History",
       "director": "Steven Spielberg",
       "poster": "/images/schindler's_list.jpg",
-      "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+      "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+      "rating": 6.7
     },
     {
       "id": 25,
@@ -223,7 +247,8 @@
       "genre": "Drama, Romance",
       "director": "Robert Zemeckis",
       "poster": "/images/forrest_gump.jpg",
-      "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life."
+      "plot": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life.",
+      "rating": 7.4
     },
     {
       "id": 26,
@@ -232,7 +257,8 @@
       "genre": "Drama",
       "director": "Frank Darabont",
       "poster": "/images/the_shawshank_redemption.jpg",
-      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+      "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+      "rating": 7.7
     },
     {
       "id": 27,
@@ -241,7 +267,8 @@
       "genre": "Action, Sci-Fi",
       "director": "Lana Wachowski, Lilly Wachowski",
       "poster": "/images/the_matrix.jpg",
-      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers."
+      "plot": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "rating": 8.9
     },
     {
       "id": 28,
@@ -250,7 +277,8 @@
       "genre": "Action, Adventure, Drama",
       "director": "Peter Jackson",
       "poster": "/images/the_lord_of_the_rings_the_fellowship_of_the_ring.jpg",
-      "plot": "A young hobbit named Frodo Baggins is tasked with carrying the one ring to Mount Doom in order to destroy it and end the power of the Dark Lord Sauron."
+      "plot": "A young hobbit named Frodo Baggins is tasked with carrying the one ring to Mount Doom in order to destroy it and end the power of the Dark Lord Sauron.",
+      "rating": 7.6
     },
     {
       "id": 29,
@@ -259,7 +287,8 @@
       "genre": "Action, Adventure, Drama",
       "director": "Anthony Russo, Joe Russo",
       "poster": "/images/avengers_endgame.jpg",
-      "plot": "After the devastating events of Avengers: Infinity War (2018), the Avengers assemble once again in order to reverse Thanos' actions and restore balance to the universe."
+      "plot": "After the devastating events of Avengers: Infinity War (2018), the Avengers assemble once again in order to reverse Thanos' actions and restore balance to the universe.",
+      "rating": 6.7
     },
     {
       "id": 30,
@@ -268,7 +297,8 @@
       "genre": "Action, Adventure, Fantasy",
       "director": "Irvin Kershner",
       "poster": "/images/star_wars_episode_v___the_empire_strikes_back.jpg",
-      "plot": "After the rebels are overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins his training as a Jedi while his friends are pursued across the galaxy by Darth Vader."
+      "plot": "After the rebels are overpowered by the Empire on the ice planet Hoth, Luke Skywalker begins his training as a Jedi while his friends are pursued across the galaxy by Darth Vader.",
+      "rating": 9.5
     },
     {
       "id": 31,
@@ -277,7 +307,8 @@
       "genre": "Animation, Adventure, Drama",
       "director": "Roger Allers, Rob Minkoff",
       "poster": "/images/the_lion_king.jpg",
-      "plot": "A lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules the kingdom, the prince makes allies and learns valuable life lessons."
+      "plot": "A lion prince is cast out of his pride by his cruel uncle, who claims he killed his father. While the uncle rules the kingdom, the prince makes allies and learns valuable life lessons.",
+      "rating": 8.1
     },
     {
       "id": 32,
@@ -286,7 +317,8 @@
       "genre": "Biography, Drama",
       "director": "Gabriele Muccino",
       "poster": "/images/the_pursuit_of_happyness.jpg",
-      "plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career."
+      "plot": "A struggling salesman takes custody of his son as he's poised to begin a life-changing professional career.",
+      "rating": 8.2
     },
     {
       "id": 33,
@@ -295,7 +327,8 @@
       "genre": "Adventure, Drama, Sci-Fi",
       "director": "Christopher Nolan",
       "poster": "/images/interstellar.jpg",
-      "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+      "plot": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+      "rating": 9.3
     },
     {
       "id": 34,
@@ -304,7 +337,8 @@
       "genre": "Animation, Adventure, Comedy",
       "director": "Lee Unkrich, Adrian Molina",
       "poster": "/images/coco.jpg",
-      "plot": "Aspiring musician Miguel teams up with charming trickster Hector on an extraordinary journey through the Land of the Dead to unlock the real story behind his family's history."
+      "plot": "Aspiring musician Miguel teams up with charming trickster Hector on an extraordinary journey through the Land of the Dead to unlock the real story behind his family's history.",
+      "rating": 6.6
     },
     {
       "id": 35,
@@ -313,7 +347,8 @@
       "genre": "Crime, Drama",
       "director": "Francis Ford Coppola",
       "poster": "/images/the_godfather_part_ii.jpg",
-      "plot": "The early life and career of Vito Corleone (as portrayed by Marlon Brando) are portrayed, while his son Michael Corleone (Al Pacino) expands and tightens his grip on the family crime syndicate."
+      "plot": "The early life and career of Vito Corleone (as portrayed by Marlon Brando) are portrayed, while his son Michael Corleone (Al Pacino) expands and tightens his grip on the family crime syndicate.",
+      "rating": 7.3
     },
     {
       "id": 36,
@@ -322,7 +357,8 @@
       "genre": "Crime, Drama, Thriller",
       "director": "Jonathan Demme",
       "poster": "/images/the_silence_of_the_lambs.jpg",
-      "plot": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer, while bargaining with her own psychological stability."
+      "plot": "A young FBI cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer, while bargaining with her own psychological stability.",
+      "rating": 6.4
     },
     {
       "id": 37,
@@ -331,7 +367,8 @@
       "genre": "Adventure, Comedy, Sci-Fi",
       "director": "Robert Zemeckis",
       "poster": "/images/back_to_the_future.jpg",
-      "plot": "Marty McFly, a teenager, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown."
+      "plot": "Marty McFly, a teenager, is accidentally sent 30 years into the past in a time-traveling DeLorean invented by his close friend, eccentric scientist Doc Brown.",
+      "rating": 9.4
     },
     {
       "id": 38,
@@ -340,7 +377,8 @@
       "genre": "Adventure, Family, Fantasy",
       "director": "Rob Reiner",
       "poster": "/images/the_princess_bride.jpg",
-      "plot": "A farm boy turned pirate joins a princess in a quest to rescue her father and save her kingdom."
+      "plot": "A farm boy turned pirate joins a princess in a quest to rescue her father and save her kingdom.",
+      "rating": 6.2
     },
     {
       "id": 39,
@@ -349,7 +387,8 @@
       "genre": "Crime, Drama, Thriller",
       "director": "Martin Scorsese",
       "poster": "/images/the_departed.jpg",
-      "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
+      "plot": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
+      "rating": 6.8
     },
     {
       "id": 40,
@@ -358,7 +397,8 @@
       "genre": "Action, Adventure, Sci-Fi",
       "director": "Joss Whedon",
       "poster": "/images/the_avengers.jpg",
-      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity."
+      "plot": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.",
+      "rating": 8.2
     },
     {
       "id": 41,
@@ -367,7 +407,8 @@
       "genre": "Action, Sci-Fi",
       "director": "Lana Wachowski, Lilly Wachowski",
       "poster": "/images/the_matrix_reloaded.jpg",
-      "plot": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it, along with the entire human race."
+      "plot": "Neo and the rebel leaders estimate that they have 72 hours until 250,000 probes discover Zion and destroy it, along with the entire human race.",
+      "rating": 7.9
     },
     {
       "id": 42,
@@ -376,7 +417,8 @@
       "genre": "Action, Adventure",
       "director": "Steven Spielberg",
       "poster": "/images/indiana_jones_raiders_of_the_lost_ark.jpg",
-      "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Nazi submarine that carries a deadly weapon known as the Ark of the Covenant."
+      "plot": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Nazi submarine that carries a deadly weapon known as the Ark of the Covenant.",
+      "rating": 8.6
     },
     {
       "id": 43,
@@ -385,7 +427,8 @@
       "genre": "Action, Drama, Thriller",
       "director": "Christopher Nolan",
       "poster": "/images/the_dark_knight_rises.jpg",
-      "plot": "Eight years after the events of The Dark Knight (2008), Batman comes out of retirement to stop the masked terrorist Bane, who is bent on destroying Gotham City."
+      "plot": "Eight years after the events of The Dark Knight (2008), Batman comes out of retirement to stop the masked terrorist Bane, who is bent on destroying Gotham City.",
+      "rating": 9.4
     },
     {
       "id": 44,
@@ -394,7 +437,8 @@
       "genre": "Crime, Drama, Fantasy",
       "director": "Frank Darabont",
       "poster": "/images/the_green_mile.jpg",
-      "plot": "A prison guard learns that one of his prisoners, who is on death row for murder, has the miraculous ability to heal people."
+      "plot": "A prison guard learns that one of his prisoners, who is on death row for murder, has the miraculous ability to heal people.",
+      "rating": 8.4
     },
     {
       "id": 45,
@@ -403,7 +447,8 @@
       "genre": "Crime, Drama",
       "director": "Martin Scorsese",
       "poster": "/images/goodfellas.jpg",
-      "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his mobster associates over the years."
+      "plot": "The story of Henry Hill and his life in the mob, covering his relationship with his wife and his mobster associates over the years.",
+      "rating": 8.0
     },
     {
       "id": 46,
@@ -412,7 +457,8 @@
       "genre": "Drama",
       "director": "David Fincher",
       "poster": "/images/fight_club.jpg",
-      "plot": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much more."
+      "plot": "An insomniac office worker and a soap salesman form an underground fight club that evolves into something much more.",
+      "rating": 6.6
     },
     {
       "id": 47,
@@ -421,7 +467,8 @@
       "genre": "Adventure, Thriller",
       "director": "Steven Spielberg",
       "poster": "/images/jaws.jpg",
-      "plot": "A great white shark hunts the small resort town of Amity Island, terrorizing its residents and tourists, leading a small group of men to hunt it down."
+      "plot": "A great white shark hunts the small resort town of Amity Island, terrorizing its residents and tourists, leading a small group of men to hunt it down.",
+      "rating": 8.7
     },
     {
       "id": 48,
@@ -430,7 +477,8 @@
       "genre": "Crime, Drama",
       "director": "Quentin Tarantino",
       "poster": "/images/pulp_fiction.jpg",
-      "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption."
+      "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "rating": 7.7
     },
     {
       "id": 49,
@@ -439,7 +487,8 @@
       "genre": "Drama, Mystery, Sci-Fi",
       "director": "Christopher Nolan",
       "poster": "/images/the_prestige.jpg",
-      "plot": "Two magicians engage in a bitter rivalry, each trying to outdo the other with increasingly spectacular illusions, while hiding dark secrets."
+      "plot": "Two magicians engage in a bitter rivalry, each trying to outdo the other with increasingly spectacular illusions, while hiding dark secrets.",
+      "rating": 9.0
     },
     {
       "id": 50,
@@ -448,7 +497,8 @@
       "genre": "Action, Adventure, Drama",
       "director": "Ridley Scott",
       "poster": "/images/gladiator.jpg",
-      "plot": "A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family and sent him into slavery."
+      "plot": "A betrayed Roman general seeks revenge against the corrupt emperor who murdered his family and sent him into slavery.",
+      "rating": 6.9
     }
   ]
 }
