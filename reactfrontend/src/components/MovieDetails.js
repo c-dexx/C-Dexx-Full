@@ -3,6 +3,7 @@ import { useState, useEffect, useContext } from 'react';
 import { useParams } from 'react-router-dom';
 import moviesData from './movielist.json';
 import AuthContext from './AuthContext';
+import axios from 'axios';
 
 const MovieDetails = () => {
   const { id } = useParams();
@@ -36,20 +37,45 @@ const MovieDetails = () => {
     setMovie(movie);
   }, [id]);
 
-  const handleAddReview = () => {
+  const handleAddReview = async () => {
     if (!user) {
       alert("You must be logged in to leave a review.");
       return;
     }
+
     const review = {
+      author: user.name,
       text: newReview,
       rating: rating,
-      author: user.name,
+      movie: id
     };
-    setReviews([...reviews, review]);
-    setNewReview("");
-    setRating("");
+    
+    try {
+      await axios.post('http://localhost:4000/api/review', review);
+      setNewReview("");
+      setRating("");
+      window.location.reload(); // Refresh the page after submitting the review
+    } catch (error) {
+      console.error("There was an error adding the review!", error);
+    }
   };
+
+  useEffect(() => {
+    const fetchReviews = async () => {
+      try {
+        const response = await axios.get('http://localhost:4000/api/review', {
+          params: { movie: id } // Replace 'MOVIE_NAME' with the actual movie name
+        });
+        setReviews("");
+        setReviews(response.data);
+        console.log(response.data);
+      } catch (error) {
+        console.error("There was an error fetching the reviews!", error);
+      }
+    };
+  
+    fetchReviews();
+  }, []);
 
   if (!movie) return (
     <Box 
@@ -75,8 +101,8 @@ const MovieDetails = () => {
     bgColor="#170B2E"
     minH="100vh"
     overflow={'hidden'}
-    px={{ base: "20px", md: "50px", lg: "100px" }}>
-      <Flex mt="36" flexDirection={{ base: "column", md: "row" }}>
+    px={{ base: "20px", md: "50px", lg: "500px" }}>
+        <Flex mt="44" flexDirection={{ base: "column", md: "row" }} ml="auto" mr="auto" maxW="1200px">
         <Image src={movie.poster} alt={movie.title} rounded="md" mb="6" maxW={{ base: "100%", md: "300px" }} />
         <VStack align={"start"} ml={{ base: "0", md: "110px" }} mt={{ base: "6", md: "0" }}>
           <Box display="flex" gap="2" flexWrap="wrap" mb="6">
@@ -95,28 +121,31 @@ const MovieDetails = () => {
           </Box>
           <Text fontSize="48px" fontWeight="800" textColor="white" mb={"6"}>{movie.title} <span style={{opacity: 0.5, marginLeft:"16px"}}>{movie.year}</span></Text>
           <Box display="flex" alignItems="center" mb="6">
-              <Text fontWeight="800" fontSize="32px" textColor={"white"}>
-                {movie.rating || "N/A"} / 10
-              </Text>
-            </Box>
+            <Text fontWeight="800" fontSize="32px" textColor={"white"}>
+              {movie.rating || "N/A"} / 10
+            </Text>
+          </Box>
           <Text mb="1" textColor={"white"} fontSize={"24px"} fontWeight={"500"}><strong>Overview :</strong></Text>
           <Text mb="4" textColor={"white"} fontSize={"18px"} fontWeight={"500"} maxW={{ base: "100%", md: "627px" }} textAlign={"justify"}>{movie.plot}</Text>
         </VStack>
       </Flex>
+      
 
-      <VStack spacing="4" align="flex-start" maxW={{ base: "100%", md: "627px" }}>
+      <VStack spacing="4" align="flex-start" maxW="100%">
         <Text fontSize="lg" fontWeight="bold" textColor={"white"}>Leave a Review</Text>
         <Input
           placeholder="Rating (out of 5)"
           value={rating}
           onChange={(e) => setRating(e.target.value)}
           style={{ color: 'white' }}
+          width={"20%"}
         />
         <Textarea
           placeholder="Write your review..."
           value={newReview}
           onChange={(e) => setNewReview(e.target.value)}
           style={{ color: 'white' }}
+          width={"100%"}
         />
         <Button bgColor={"#5638FF"} color={"white"} onClick={handleAddReview} fontSize={"15px"} fontWeight={"700"}
         _hover={{
@@ -125,7 +154,7 @@ const MovieDetails = () => {
         }}>Submit Review</Button>
       </VStack>
 
-      <VStack mt="8" spacing="6" maxW={{ base: "100%", md: "627px" }}>
+      <VStack mt="8" spacing="6" maxW="100%" mb="8">
         {reviews.map((review, index) => (
           <Box key={index} p="4" shadow="md" rounded="md" bg="gray.100" w="100%">
             <HStack>

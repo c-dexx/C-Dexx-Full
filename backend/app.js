@@ -84,12 +84,22 @@ route.post('/api/review', (req, res) => {
 });
 
 route.get('/api/review', (req, res) => {
-  Review.find().then(reviews => {
-    res.send(reviews);
-  }).catch(err => {
-    res.status(500).send(err);
-  });
+  const movie = req.query.movie; // Get the 'movie' parameter from the query string
+
+  if (!movie) {
+    return res.status(400).send({ error: "Movie parameter is required" });
+  }
+
+  // Use the 'movie' parameter to filter the reviews
+  Review.find({ movie: movie })
+    .then(reviews => {
+      res.send(reviews);
+    })
+    .catch(err => {
+      res.status(500).send({ error: "Error fetching reviews", details: err });
+    });
 });
+
 
 route.get('/api/review/:id', (req, res) => {
   Review.findByIdAndRemove(req.params.id).then(() => {
