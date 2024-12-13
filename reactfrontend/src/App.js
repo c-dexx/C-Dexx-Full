@@ -1,4 +1,4 @@
-import { ChakraProvider, Box, Flex, Grid } from '@chakra-ui/react';
+import { ChakraProvider, Box} from '@chakra-ui/react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import MovieSearch from './components/MovieSearch';
