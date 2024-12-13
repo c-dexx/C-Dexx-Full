@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = async () => {
     try {
       // Send login credentials to backend
-      const response = await axios.post('http://localhost:3000/api/users/login', {
+      const response = await axios.post('http://localhost:4000/api/users/login', {
         email,
         password,
       });
