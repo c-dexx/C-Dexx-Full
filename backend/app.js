@@ -11,11 +11,11 @@ const route = express();
 
 
 
-route.use(cors({
-  origin: 'http://localhost:3000',
-  methods: ['GET', 'POST', 'OPTIONS'],
-  allowedHeaders: ['Content-Type']
-}));
+// route.use(cors({
+//   origin: 'http://localhost:3000',
+//   methods: ['GET', 'POST', 'OPTIONS'],
+//   allowedHeaders: ['Content-Type']
+// }));
 route.use(bodyParser.json());
 route.use(bodyParser.urlencoded({ extended: true }));
 

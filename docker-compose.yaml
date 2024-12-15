@@ -10,8 +10,6 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-    networks:
-      - my-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3001"]
       interval: 30s
@@ -24,8 +22,6 @@ services:
     container_name: mongodb
     ports:
       - "27017:27017"
-    networks:
-      - my-network
     volumes:
       - mongodb-data:/data/db
     healthcheck:
@@ -46,8 +42,6 @@ services:
       - mongodb
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/Lay-App
-    networks:
-      - my-network
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
       interval: 30s
@@ -55,28 +49,23 @@ services:
       start_period: 30s
       timeout: 10s
 
-  # nginx:
-  #   image: nginx:latest
-  #   container_name: nginx
-  #   ports:
-  #     - "80:80"
-  #   volumes:
-  #     - ./nginx.conf:/etc/nginx/nginx.conf
-  #   depends_on:
-  #     - frontend
-  #     - backend
-  #   networks:
-  #     - my-network
-  #   healthcheck:
-  #     test: ["CMD", "curl", "-f", "http://localhost/"]
-  #     interval: 30s
-  #     retries: 3
-  #     start_period: 30s
-  #     timeout: 10s
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - frontend
+      - backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost/"]
+      interval: 30s
+      retries: 3
+      start_period: 30s
+      timeout: 10s
 
-networks:
-  my-network:
-    driver: bridge
 
 volumes:
   mongodb-data: {}
