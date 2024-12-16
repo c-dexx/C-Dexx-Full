@@ -3,6 +3,7 @@ import { useContext, useState } from 'react';
 import AuthContext from './AuthContext'; // Assuming you have an AuthContext to store login state
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -14,7 +15,7 @@ const Login = () => {
   const handleSubmit = async () => {
     try {
       // Send login credentials to backend
-      const response = await axios.post('http://localhost/api/users/login', {
+      const response = await axios.post('${BASE_URL}/api/users/login', {
         email,
         password,
       });

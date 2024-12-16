@@ -10,6 +10,8 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+    environment:
+      - REACT_APP_API_URL=https://lai24b-k11.tekomits.my.id
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:3001"]
       interval: 30s

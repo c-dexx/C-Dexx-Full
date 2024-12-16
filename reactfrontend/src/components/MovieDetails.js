@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 import moviesData from './movielist.json';
 import AuthContext from './AuthContext';
 import axios from 'axios';
-
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost';
 const MovieDetails = () => {
   const { id } = useParams();
   const { user } = useContext(AuthContext);
@@ -51,7 +51,7 @@ const MovieDetails = () => {
     };
     
     try {
-      await axios.post('http://localhost/api/review', review);
+      await axios.post('${BASE_URL}/api/review', review);
       setNewReview("");
       setRating("");
       window.location.reload(); // Refresh the page after submitting the review
@@ -63,7 +63,7 @@ const MovieDetails = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await axios.get('http://localhost/api/review', {
+        const response = await axios.get('${BASE_URL}/api/review', {
           params: { movie: id } // Replace 'MOVIE_NAME' with the actual movie name
         });
         setReviews("");

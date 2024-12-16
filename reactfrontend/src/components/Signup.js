@@ -14,7 +14,7 @@ const Signup = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('http://localhost/api/users', {
+      const response = await axios.post('${BASE_URL}/api/users', {
         nama,
         email,
         password
