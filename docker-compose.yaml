@@ -6,8 +6,8 @@ services:
       context: ./reactfrontend
       dockerfile: dockerfile.frontend
     container_name: frontend-cdexx
-    ports:
-      - "3000:3000"
+    expose:
+      - "3000"
     depends_on:
       - backend
     environment:
@@ -16,8 +16,8 @@ services:
   mongodb:
     image: mongo:4.4
     container_name: mongodb
-    ports:
-      - "27017:27017"
+    expose:
+      - "27017"
     volumes:
       - mongodb-data:/data/db
 
@@ -26,8 +26,8 @@ services:
       context: ./backend
       dockerfile: dockerfile.backend
     container_name: backend-cdexx
-    ports:
-      - "4000:4000"
+    expose:
+      - "4000"
     depends_on:
       - mongodb
     environment:
