@@ -10,14 +10,6 @@ services:
       - "3000:3000"
     depends_on:
       - backend
-    environment:
-      - REACT_APP_API_URL=https://lai24b-k11.tekomits.my.id
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3001"]
-      interval: 30s
-      retries: 3
-      start_period: 30s
-      timeout: 10s
 
   mongodb:
     image: mongo:4.4
@@ -26,12 +18,6 @@ services:
       - "27017:27017"
     volumes:
       - mongodb-data:/data/db
-    healthcheck:
-      test: ["CMD", "mongo", "--eval", "db.runCommand('ping')"]
-      interval: 30s
-      retries: 3
-      start_period: 30s
-      timeout: 10s
 
   backend:
     build:
@@ -44,12 +30,6 @@ services:
       - mongodb
     environment:
       - MONGODB_URI=mongodb://mongodb:27017/Lay-App
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
-      interval: 30s
-      retries: 3
-      start_period: 30s
-      timeout: 10s
 
   nginx:
     image: nginx:latest
@@ -61,12 +41,6 @@ services:
     depends_on:
       - frontend
       - backend
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost/"]
-      interval: 30s
-      retries: 3
-      start_period: 30s
-      timeout: 10s
 
 
 volumes:
