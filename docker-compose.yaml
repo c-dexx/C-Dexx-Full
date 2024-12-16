@@ -18,8 +18,6 @@ services:
     container_name: mongodb
     expose:
       - "27017"
-    volumes:
-      - mongodb-data:/data/db
 
   backend:
     build:
@@ -46,4 +44,4 @@ services:
 
 
 volumes:
-  mongodb-data: {}
+
