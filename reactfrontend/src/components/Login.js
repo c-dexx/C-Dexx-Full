@@ -10,11 +10,10 @@ const Login = () => {
   const { login } = useContext(AuthContext); // To manage logged-in state
   const [error, setError] = useState('');
   const navigate = useNavigate();
-
   const handleSubmit = async () => {
     try {
       // Send login credentials to backend
-      const response = await axios.post('https://lai24b-k11.tekomits.my.id/api/users/login', {
+      const response = await axios.post('${process.env.REACT_APP_API_URL}/api/users/login', {
         email,
         password,
       });

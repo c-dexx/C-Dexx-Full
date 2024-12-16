@@ -50,7 +50,7 @@ const MovieDetails = () => {
     };
     
     try {
-      await axios.post('https://lai24b-k11.tekomits.my.id/api/review', review);
+      await axios.post('${process.env.REACT_APP_API_URL}/api/review', review);
       setNewReview("");
       setRating("");
       window.location.reload(); // Refresh the page after submitting the review
@@ -62,7 +62,7 @@ const MovieDetails = () => {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const response = await axios.get('https://lai24b-k11.tekomits.my.id/api/review', {
+        const response = await axios.get('${process.env.REACT_APP_API_URL}/api/review', {
           params: { movie: id } // Replace 'MOVIE_NAME' with the actual movie name
         });
         setReviews("");

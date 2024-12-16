@@ -14,7 +14,7 @@ const Signup = () => {
 
   const handleSubmit = async () => {
     try {
-      const response = await axios.post('https://lai24b-k11.tekomits.my.id/api/users', {
+      const response = await axios.post('${process.env.REACT_APP_API_URL}/api/users', {
         nama,
         email,
         password
