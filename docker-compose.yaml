@@ -18,7 +18,7 @@ services:
       timeout: 10s
 
   mongodb:
-    image: mongo:latest
+    image: mongo:5.0
     container_name: mongodb
     ports:
       - "27017:27017"
