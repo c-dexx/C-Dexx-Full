@@ -15,7 +15,7 @@ const Login = () => {
   const handleSubmit = async () => {
     try {
       // Send login credentials to backend
-      const response = await axios.post('${BASE_URL}/api/users/login', {
+      const response = await axios.post('https://lai24b-k11.tekomits.my.id/api/users/login', {
         email,
         password,
       });
